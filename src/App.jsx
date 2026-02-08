@@ -1,17 +1,20 @@
 import React from 'react'
 import styles from "./style";
+
+import { Navbar, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer,Hero } from './components';
+
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden text-white'>
+    <div className='bg-primary w-full overflow-hidden '>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          navbar
+          <Navbar />
         </div>
       </div>
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          hero
+          <Hero />
 
         </div>
       </div>
@@ -19,15 +22,16 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX}  ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          stats
-          Business
-          billing
-          card
-          testimonials
-          clients
-          cta
-          footer
+          <Stats />
+          <Business />
+          <Billing />
+          <CardDeal />
+          <Testimonials />
+          <Clients />
+          <CTA />
+          <Footer />
         </div>
+        
       </div>
 
 
