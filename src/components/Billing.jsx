@@ -1,4 +1,6 @@
 import React from 'react'
+import { apple,bill,google} from '../assets'
+import { layout } from '../style'
 
 const Billing = () => {
   return (
