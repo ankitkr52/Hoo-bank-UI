@@ -46,7 +46,7 @@ const Footer = () => (
 
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, index) => (
-          <img
+          <img 
             key={social.id}
             src={social.icon}
             alt={social.id}
