@@ -45,7 +45,7 @@ const Footer = () => (
         
       </p>
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Developed by Ankit sharma
+        Developed by Ankit sharma!
         
       </p>
 
